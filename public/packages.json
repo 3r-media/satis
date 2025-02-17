@@ -1,0 +1,10 @@
+{
+    "packages": [],
+    "includes": {
+        "include/all$03b0cca97d4eb5ee8d6faf97885caf015b01cdff.json": {
+            "sha1": "03b0cca97d4eb5ee8d6faf97885caf015b01cdff"
+        }
+    },
+    "metadata-url": "/p2/%package%.json",
+    "available-packages": ["3r-media/core"]
+}

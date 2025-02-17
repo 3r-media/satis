@@ -1,0 +1,11 @@
+{
+    "name": "3r-media/satis",
+    "homepage": "https://packages.3r.media",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/3r-media/core.git"
+        }
+    ],
+    "require-all": true
+}

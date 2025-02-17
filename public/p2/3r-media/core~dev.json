@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "3r-media/core": [
+            {
+                "name": "3r-media/core",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:3r-media/core.git",
+                    "reference": "b3b17d94fbf85f21fc9b341c8b851d3eb2e1906a"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/3r-media/core/zipball/b3b17d94fbf85f21fc9b341c8b851d3eb2e1906a",
+                    "reference": "b3b17d94fbf85f21fc9b341c8b851d3eb2e1906a",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^11.0",
+                    "php": "^8.2"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.17.2",
+                    "mockery/mockery": "^1.6.12",
+                    "nunomaduro/collision": "^8.4.0",
+                    "orchestra/testbench": "^9.4.0",
+                    "pestphp/pest": "^2.35",
+                    "pestphp/pest-plugin-arch": "^2.7.0",
+                    "pestphp/pest-plugin-laravel": "^2.4.0",
+                    "pestphp/pest-plugin-livewire": "^2.1.0"
+                },
+                "time": "2024-08-30T19:11:35+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": ["ThreeR\\Core\\CoreServiceProvider"],
+                        "aliases": {
+                            "Core": "ThreeR\\Core\\Facades\\Core"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "ThreeR\\Core\\": "src/",
+                        "ThreeR\\Core\\Database\\Factories\\": "database/factories/",
+                        "ThreeR\\Core\\Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "ThreeR\\Core\\Tests\\": "tests"
+                    }
+                },
+                "license": ["MIT"],
+                "authors": [
+                    {
+                        "name": "3r.Media",
+                        "email": "admin@3r.media",
+                        "homepage": "https://3r.media"
+                    }
+                ],
+                "description": ":package_description",
+                "homepage": "https://github.com/3r-media/core",
+                "keywords": ["3r.Media", "Core", "DiscipleGo", "Laravel"],
+                "support": {
+                    "source": "https://github.com/3r-media/core/tree/master",
+                    "issues": "https://github.com/3r-media/core/issues"
+                }
+            }
+        ]
+    }
+}
