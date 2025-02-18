@@ -1,0 +1,74 @@
+{
+    "packages": {
+        "rrr/genesis": [
+            {
+                "name": "rrr/genesis",
+                "version": "dev-master",
+                "version_normalized": "dev-master",
+                "source": {
+                    "type": "git",
+                    "url": "git@github.com:3r-media/genesis.git",
+                    "reference": "258c78327208edb19dce5b5169440b48ff3afbf8"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/3r-media/genesis/zipball/258c78327208edb19dce5b5169440b48ff3afbf8",
+                    "reference": "258c78327208edb19dce5b5169440b48ff3afbf8",
+                    "shasum": ""
+                },
+                "require": {
+                    "illuminate/contracts": "^11.0",
+                    "php": "^8.1"
+                },
+                "require-dev": {
+                    "laravel/pint": "^1.20.0",
+                    "mockery/mockery": "^1.6.12",
+                    "nunomaduro/collision": "^8.6.1",
+                    "orchestra/testbench": "^9.10.0",
+                    "pestphp/pest": "^v3.7.4",
+                    "pestphp/pest-plugin-arch": "^v3.0.0",
+                    "pestphp/pest-plugin-laravel": "^v3.1.0",
+                    "pestphp/pest-plugin-livewire": "^v3.0.0"
+                },
+                "time": "2025-02-18T01:07:02+00:00",
+                "default-branch": true,
+                "type": "library",
+                "extra": {
+                    "laravel": {
+                        "providers": ["Rrr\\Genesis\\GenesisServiceProvider"],
+                        "aliases": {
+                            "Genesis": "Rrr\\Genesis\\Facades\\Genesis"
+                        }
+                    }
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Rrr\\Genesis\\": "src/",
+                        "Rrr\\Genesis\\Database\\Factories\\": "database/factories/",
+                        "Rrr\\Genesis\\Database\\Seeders\\": "database/seeders/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-4": {
+                        "Rrr\\Genesis\\Tests\\": "tests"
+                    }
+                },
+                "license": ["MIT"],
+                "authors": [
+                    {
+                        "name": "Aubrey Robertson",
+                        "email": "aubrey@disciplego.com",
+                        "homepage": "https://disciplego.com"
+                    }
+                ],
+                "description": ":package_description",
+                "homepage": "https://github.com/rrr/genesis",
+                "keywords": ["3r.media", "Genesis", "Laravel"],
+                "support": {
+                    "source": "https://github.com/3r-media/genesis/tree/master",
+                    "issues": "https://github.com/3r-media/genesis/issues"
+                }
+            }
+        ]
+    }
+}

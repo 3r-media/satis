@@ -1,10 +1,10 @@
 {
     "packages": [],
     "includes": {
-        "include/all$03b0cca97d4eb5ee8d6faf97885caf015b01cdff.json": {
-            "sha1": "03b0cca97d4eb5ee8d6faf97885caf015b01cdff"
+        "include/all$f18a4292b675b8cc949c822367e4f37797c126f0.json": {
+            "sha1": "f18a4292b675b8cc949c822367e4f37797c126f0"
         }
     },
     "metadata-url": "/p2/%package%.json",
-    "available-packages": ["3r-media/core"]
+    "available-packages": ["rrr/genesis"]
 }

@@ -4,7 +4,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/3r-media/core.git"
+            "url": "https://github.com/3r-media/genesis.git"
         }
     ],
     "require-all": true
