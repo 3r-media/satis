@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/3r-media/dev-stack.git",
-                    "reference": "919a4b4bccec2eb63814017ae29961113d587763"
+                    "reference": "999cd517d9f334e6e07c47ab1cf036fb9a0fdda4"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/3r-media/dev-stack/zipball/919a4b4bccec2eb63814017ae29961113d587763",
-                    "reference": "919a4b4bccec2eb63814017ae29961113d587763",
+                    "url": "https://api.github.com/repos/3r-media/dev-stack/zipball/999cd517d9f334e6e07c47ab1cf036fb9a0fdda4",
+                    "reference": "999cd517d9f334e6e07c47ab1cf036fb9a0fdda4",
                     "shasum": ""
                 },
                 "require": {
@@ -35,7 +35,7 @@
                 "require-dev": {
                     "orchestra/testbench": "^10.0"
                 },
-                "time": "2025-07-18T22:46:53+00:00",
+                "time": "2025-07-18T22:53:17+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
@@ -67,7 +67,7 @@
                     }
                 ],
                 "description": ":package_description",
-                "homepage": "https://github.com/rrr/dev-stack",
+                "homepage": "https://github.com/3r-media/dev-stack",
                 "keywords": ["3r.Media", "DevStack", "Laravel", "Rrr"],
                 "support": {
                     "source": "https://github.com/3r-media/dev-stack/tree/master",
