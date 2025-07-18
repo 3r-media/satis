@@ -5,6 +5,10 @@
         {
             "type": "vcs",
             "url": "https://github.com/3r-media/genesis.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/3r-media/dev-stack.git"
         }
     ],
     "require-all": true
