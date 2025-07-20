@@ -83,12 +83,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/3r-media/genesis.git",
-                    "reference": "d79ac5bea2cc8255c3a7d49f066551c297856f5e"
+                    "reference": "088acb7662618323d32423c46403ddb071694b30"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/3r-media/genesis/zipball/d79ac5bea2cc8255c3a7d49f066551c297856f5e",
-                    "reference": "d79ac5bea2cc8255c3a7d49f066551c297856f5e",
+                    "url": "https://api.github.com/repos/3r-media/genesis/zipball/088acb7662618323d32423c46403ddb071694b30",
+                    "reference": "088acb7662618323d32423c46403ddb071694b30",
                     "shasum": ""
                 },
                 "require": {
@@ -106,7 +106,7 @@
                     "pestphp/pest-plugin-laravel": "^3.1",
                     "pestphp/pest-plugin-livewire": "^3.0"
                 },
-                "time": "2025-07-20T00:02:22+00:00",
+                "time": "2025-07-20T00:32:22+00:00",
                 "default-branch": true,
                 "type": "library",
                 "extra": {
